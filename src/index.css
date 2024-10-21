@@ -1,9 +1,10 @@
 :root {
-
+  --cursor-img: url('./assets/cursor.png'), auto;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: var(--cursor-img);
 }

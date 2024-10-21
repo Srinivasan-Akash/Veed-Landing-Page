@@ -67,6 +67,13 @@ export default function Preloader() {
             delay: 2.5
             //   ease: 'power1.inOut', // Smooth easing for the animation
         }); 
+
+        gsap.to(".preloader", {
+            background: "#101010",
+            duration: 1, // Animation duration for growing
+            delay: 4
+            //   ease: 'power1.inOut', // Smooth easing for the animation
+        }); 
     }, []);
 
     return (
